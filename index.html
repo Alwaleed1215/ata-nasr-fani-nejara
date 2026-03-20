@@ -6,17 +6,17 @@
     <meta name="description" content="عطا نصر فني نجارة وديكور بالرياض. متخصص في تفصيل غرف النوم، الخزائن، والديكورات الخشبية، وبديل الشيبورد. نخدم حي المصيف وكافة أحياء شمال الرياض.">
     <meta name="keywords" content="نجار, فني نجارة, نجار الرياض, تفصيل خزائن, غرف نوم, ديكورات خشبية, بديل الشيبورد, عطا نصر, نجار حي المصيف, صيانة نجارة">
     
-    <meta name="google-site-verification" content="pL1De9gqs2FyjpEamGfW8ThnER5EAtKVMYMkBsVfLjk" />
+    <meta name="google-site-verification" content="AYuxvjuKALjaswt2OS-6u_ZCeMoM-7SDZMdq_AEWZ0g" />
 
     <meta property="og:title" content="عطا نصر | فني نجارة وديكورات خشبية">
     <meta property="og:description" content="أرقى خدمات النجارة وتفصيل الموبيليا بلمسات فنية إبداعية في الرياض (حي المصيف).">
-    <meta property="og:image" content="https://imgg.io/images/2026/03/19/c79d40338dd22427f1c7089e42d61749.png">
+    <meta property="og:image" content="https://imgg.io/images/2026/03/20/0e282bd26b43d0e115cb12c673db1bc7.jpg">
     <meta property="og:type" content="website">
 
     <title>عطا نصر فني نجارة وديكور | نجار تفصيل خزائن وديكورات حي المصيف</title>
     
-    <link rel="icon" href="https://imgg.io/images/2026/03/19/c79d40338dd22427f1c7089e42d61749.png" type="image/png">
-    <link rel="apple-touch-icon" href="https://imgg.io/images/2026/03/19/c79d40338dd22427f1c7089e42d61749.png">
+    <link rel="icon" href="https://imgg.io/images/2026/03/20/0e282bd26b43d0e115cb12c673db1bc7.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="https://imgg.io/images/2026/03/20/0e282bd26b43d0e115cb12c673db1bc7.jpg">
 
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -24,9 +24,9 @@
     <style>
         /* ================= المتغيرات والألوان (ثيم الخشب الملكي والذهبي) ================= */
         :root {
-            --bg-color: #160e08; /* بني داكن جداً (خشب الجوز) */
-            --surface-color: #2b1d14; /* بني خشبي دافئ */
-            --gold-primary: #d4af37; /* ذهبي ملكي للإطارات والزينة */
+            --bg-color: #160e08; 
+            --surface-color: #2b1d14; 
+            --gold-primary: #d4af37; 
             --gold-light: #f3e5ab; 
             --text-light: #f4ece6; 
             --text-muted: #b8a598; 
@@ -61,10 +61,10 @@
         html[lang="en"] .ar, html[lang="en"] .ur { display: none; }
         html[lang="ur"] .ar, html[lang="ur"] .en { display: none; }
         html[lang="en"] { direction: ltr; }
-        html[lang="ur"] { direction: rtl; } /* الأوردو تكتب من اليمين لليسار */
+        html[lang="ur"] { direction: rtl; }
         /* ======================================================= */
 
-        /* شاشة التحميل (Loader) الدائرية الفخمة */
+        /* شاشة التحميل (Loader) */
         #loader {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: linear-gradient(135deg, var(--bg-color), var(--surface-color)); z-index: 99999;
@@ -87,7 +87,7 @@
         }
         
         .loader-image-frame img { 
-            width: 100px; height: auto; object-fit: contain; 
+            width: 100px; height: auto; object-fit: cover; 
             border-radius: 50%;
             filter: drop-shadow(0 0 15px rgba(210, 139, 75, 0.6));
             animation: counterSpinPulse 2s linear infinite;
@@ -108,7 +108,7 @@
         .dots::after { content: ''; animation: dotsLoader 1.5s steps(4, end) infinite; }
         @keyframes dotsLoader { 0%, 20% { content: ''; } 40% { content: '.'; } 60% { content: '..'; } 80%, 100% { content: '...'; } }
 
-        /* الرأس (Header) بتصميم خشبي ذهبي */
+        /* الرأس (Header) */
         header {
             background: linear-gradient(90deg, #110a06 0%, #2b1d14 50%, #110a06 100%);
             padding: 15px 5%;
@@ -173,16 +173,14 @@
         
         .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         
-        /* البطاقات الفخمة بالإطار الذهبي وأنيميشن اللمعان */
         .service-card {
             background: linear-gradient(145deg, #2b1d14, #160e08); 
-            border: 2px solid var(--gold-primary); /* إطار ذهبي فخم */
+            border: 2px solid var(--gold-primary); 
             border-radius: 15px; padding: 35px 20px; text-align: center; 
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;
             box-shadow: 0 5px 15px rgba(0,0,0,0.5), inset 0 0 10px rgba(210, 139, 75, 0.1);
             position: relative; overflow: hidden;
         }
-        /* لمسة اللمعان (Shine Effect) للنجارة */
         .service-card::before {
             content: ''; position: absolute; top: 0; left: -100%; width: 50%; height: 100%;
             background: linear-gradient(90deg, transparent, rgba(210, 139, 75, 0.2), transparent);
@@ -212,7 +210,7 @@
         .feature-card h3 { margin-bottom: 10px; color: var(--text-light); }
         .feature-card p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; }
 
-        /* ================= تواصل معنا والخريطة (تضاريس واحترافية) ================= */
+        /* ================= تواصل معنا والخريطة ================= */
         .contact-info { text-align: center; margin-bottom: 40px; padding: 0 10px; }
         .contact-info p { font-size: 1rem; margin-bottom: 15px; word-wrap: break-word; font-weight: 500; }
         html[lang="ar"] .contact-info i, html[lang="ur"] .contact-info i { margin-left: 10px; color: var(--gold-primary); font-size: 1.2rem; }
@@ -226,13 +224,12 @@
             box-shadow: 0 15px 35px rgba(0,0,0,0.6);
         }
         
-        /* فلتر CSS لتحويل الخريطة إلى شكل تضاريس متناسق مع ثيم الخشب */
+        /* فلتر الخريطة التضاريسية */
         .map-container iframe { 
             width: 100% !important; height: 100% !important; border: none; 
             filter: contrast(1.1) saturate(1.3) sepia(0.3) hue-rotate(-15deg); 
         }
         
-        /* الدبوس والأنيميشن الخاص به */
         .map-pin-center { 
             position: absolute; top: 50%; left: 50%; 
             transform: translate(-50%, -50%); 
@@ -250,7 +247,6 @@
             100% { transform: translateY(0); } 
         }
         
-        /* المربع التعريفي بجوار الدبوس (Tooltip) */
         .map-tooltip {
             background: rgba(26, 17, 10, 0.95); backdrop-filter: blur(8px);
             color: var(--gold-light); padding: 8px 18px; border-radius: 8px; font-weight: bold; 
@@ -294,17 +290,16 @@
         .bottom-nav a:hover, .bottom-nav a:active { color: var(--gold-primary); transform: translateY(-3px); }
         .nav-text { font-size: 0.65rem; font-weight: 700; }
 
-        /* ================= الأزرار العائمة ================= */
+        /* ================= الأزرار العائمة (أصبحت على اليمين) ================= */
         .floating-action-menu {
             position: fixed;
             bottom: 95px;
+            right: 20px; /* تم التعديل لتكون على اليمين كما طلبت */
             display: flex;
             flex-direction: column;
             gap: 15px;
             z-index: 1000;
         }
-        html[lang="ar"] .floating-action-menu, html[lang="ur"] .floating-action-menu { left: 15px; }
-        html[lang="en"] .floating-action-menu { right: 15px; }
 
         .float-btn {
             width: 50px; height: 50px;
@@ -343,7 +338,7 @@
             .service-card { padding: 25px 15px; }
             .map-container { height: 350px; }
             .bottom-nav { width: 95%; bottom: 10px; }
-            .floating-action-menu { bottom: 85px; }
+            .floating-action-menu { bottom: 85px; right: 15px; } /* تصغير المسافة من اليمين في الموبايل */
             .float-btn { width: 42px; height: 42px; font-size: 1.2rem; }
             header .site-title { font-size: 0.9rem; }
         }
@@ -354,7 +349,7 @@
     <div id="loader">
         <div class="loader-content">
             <div class="loader-image-frame">
-                <img src="https://imgg.io/images/2026/03/19/c79d40338dd22427f1c7089e42d61749.png" alt="شعار عطا نصر للنجارة">
+                <img src="https://imgg.io/images/2026/03/20/0e282bd26b43d0e115cb12c673db1bc7.jpg" alt="شعار عطا نصر للنجارة">
             </div>
             <p class="loading-text">
                 <span class="ar">جاري تجهيز الموقع</span>
@@ -507,7 +502,7 @@
         </div>
         
         <div class="map-container reveal">
-            <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://maps.google.com/maps?q=%D8%AD%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D9%8A%D9%81%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6&t=p&z=14&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
             <div class="map-pin-center">
                 <div class="map-tooltip">
@@ -594,7 +589,6 @@
         function setLanguage(lang) {
             document.documentElement.lang = lang;
             
-            // تحديد النص الذي سيظهر على الزر ليمثل اللغة "التالية"
             let nextLangText = '';
             if(lang === 'ar') nextLangText = 'EN';
             else if(lang === 'en') nextLangText = 'اردو';
@@ -617,7 +611,7 @@
                 setLanguage(savedLang);
             } else {
                 const browserLang = navigator.language || navigator.userLanguage;
-                let defaultLang = 'ar'; // اللغة الافتراضية
+                let defaultLang = 'ar'; 
                 if(browserLang.toLowerCase().startsWith('en')) defaultLang = 'en';
                 else if(browserLang.toLowerCase().startsWith('ur')) defaultLang = 'ur';
                 
